@@ -1,0 +1,14 @@
+name: team-room-inspector
+description: Audits active Matrix rooms, connected worker runtimes, and real-time
+  conversation messages.
+input_schema:
+  type: object
+  properties:
+    room_id:
+      type: string
+      description: Matrix room identifier to inspect.
+    limit:
+      type: integer
+      description: 'Number of recent events to retrieve (default: 20).'
+  required:
+  - room_id

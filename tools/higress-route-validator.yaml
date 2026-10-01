@@ -1,0 +1,14 @@
+name: higress-route-validator
+description: Validates AI gateway route configurations, rate limits, and model provider
+  credentials.
+input_schema:
+  type: object
+  properties:
+    route_name:
+      type: string
+      description: Name of the gateway route configuration to audit.
+    provider:
+      type: string
+      description: Target LLM provider (openai, dashscope, qwen, anthropic).
+  required:
+  - route_name

@@ -1,0 +1,19 @@
+name: worker-crd-provisioner
+description: Generates declarative Kubernetes CRD manifests for Worker, Manager, and
+  Team resources.
+input_schema:
+  type: object
+  properties:
+    resource_type:
+      type: string
+      description: 'Resource kind: Worker, Team, or Human.'
+    name:
+      type: string
+      description: Metadata name of the resource.
+    runtime:
+      type: string
+      description: 'Target runtime: qwenpaw, openclaw, hermes, or deepseek.'
+  required:
+  - resource_type
+  - name
+  - runtime

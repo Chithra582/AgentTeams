@@ -1,0 +1,24 @@
+spec_version: "0.1.0"
+name: agent-teams-controller
+version: 0.1.0
+description: Collaborative multi-agent runtime platform orchestrating Manager-Workers architectures via Matrix protocol, Kubernetes CRDs, and Higress AI gateway.
+license: Apache-2.0
+author: AgentScope AI, Chithra582 & OpenGAP Contributors
+
+metadata:
+  domain: Developer Tools / Collaborative Multi-Agent Runtime & Kubernetes Control Plane
+  category: Developer Tools
+
+skills:
+  - manager-worker-orchestration
+  - matrix-im-room-mediator
+  - k8s-crd-lifecycle-controller
+  - higress-gateway-credential-guard
+  - shared-storage-sync-optimizer
+
+tools:
+  - team-room-inspector
+  - worker-crd-provisioner
+  - higress-route-validator
+  - minio-artifact-bridge
+  - runtime-health-evaluator

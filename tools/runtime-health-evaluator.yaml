@@ -1,0 +1,14 @@
+name: runtime-health-evaluator
+description: Measures health metrics, latency, and memory footprints across OpenClaw,
+  QwenPaw, and Hermes workers.
+input_schema:
+  type: object
+  properties:
+    worker_name:
+      type: string
+      description: Name of the target worker container or pod.
+    collect_telemetry:
+      type: boolean
+      description: Whether to gather detailed resource metrics.
+  required:
+  - worker_name

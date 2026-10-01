@@ -1,0 +1,14 @@
+name: minio-artifact-bridge
+description: Inspects shared file objects exchanged between worker agents to track
+  storage provenance.
+input_schema:
+  type: object
+  properties:
+    bucket_name:
+      type: string
+      description: MinIO bucket name hosting team artifacts.
+    object_prefix:
+      type: string
+      description: Object path prefix or folder to inspect.
+  required:
+  - bucket_name
