@@ -1,5 +1,5 @@
 spec_version: "0.1.0"
-name: agent-teams-controller
+name: agentteams
 version: 0.1.0
 description: Collaborative multi-agent runtime platform orchestrating Manager-Workers architectures via Matrix protocol, Kubernetes CRDs, and Higress AI gateway.
 license: Apache-2.0
